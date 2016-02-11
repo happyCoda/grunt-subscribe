@@ -3,13 +3,10 @@
   "description": "Notifies when previous task has finished",
   "version": "0.1.0",
   "homepage": "https://github.com/happyCoda/grunt-subscribe",
-  "author": {
-    "name": "happyCoda",
-    "email": "ypworkspace@gmail.com"
-  },
+  "author": "happyCoda <ypworkspace@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/happyCoda/grunt-subscribe.git"
+    "url": "git+https://github.com/happyCoda/grunt-subscribe.git"
   },
   "bugs": {
     "url": "https://github.com/happyCoda/sgrunt-subscribe/issues"
@@ -33,5 +30,11 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "license": "MIT"
 }
